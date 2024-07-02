@@ -1,0 +1,143 @@
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+ 
+.option-one-screen, 
+.option-two-screen, 
+.option-oneOne-end, 
+.option-oneTwo-end,
+.option-twoOne-end, 
+.option-twoTwo-end,
+.option-oneOneOne-end,
+.option-oneOneTwo-end,
+.option-oneOneOneTwo-end,
+.option-oneOneOneOne-end,
+.ending,
+.ending_good {
+   display: none;
+}
+
+
+
+/* Feel free to change any of the styling below!*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with a background color or image if desired */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the title of your story */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the story opening container */
+.story-opening {
+    background-color: #fff;
+    border: 0px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the story image */
+.story-opening img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 800px;
+}
+
+/* Style the story opening message */
+.story-opening h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons container */
+.buttons {
+    margin: 20px;
+}
+
+/* Style the option buttons */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the screens for option one and option two */
+.option-one-screen,
+.option-two-screen,
+.option-oneOne-end,
+.option-oneTwo-end,
+.option-oneOneOne-end,
+.option-oneOneTwo-end,
+.option-oneOneOneTwo-end,
+.option-oneOneOneOne-end {
+    background-color: #fff;
+    border: 0px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Style the images in the screens */
+.option-one-screen img,
+.option-two-screen img,
+.option-oneTwo-end img,
+.option-oneOne-end img,
+/* .option-oneOneOne-end img, */
+.option-oneOneTwo-end img,
+.option-twoOne-end img,
+.option-twoTwo-end img,
+.option-oneOneOneTwo-end img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.option-oneOneOne-end img {
+    width: 340px;
+}
+
+/* Style the text in the screens */
+.option-one-screen h1,
+.option-two-screen h1,
+.option-oneOne-end h1,
+.option-oneTwo-end h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.option-one_yes,
+.option-one_no,
+.option-two_yes,
+.option-two_no,
+.option-one_yes_pay,
+.option-one_yes_run,
+.option-one_yes_pay_leave,
+.option-one_yes_pay_study {
+    display: none;
+}
